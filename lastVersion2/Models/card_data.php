@@ -1,5 +1,5 @@
 <?php
-class ticketData{
+class card_data{
   private $name;
   private $card_num;
   private $exp;
