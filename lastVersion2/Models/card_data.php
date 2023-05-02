@@ -11,7 +11,7 @@ class card_data{
     $this->name=$n;
   }
 
-  public function set_card_num($s)
+  public function set_card_num($c)
   {
       $this->card_num=$c;
   }
