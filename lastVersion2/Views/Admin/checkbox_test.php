@@ -28,13 +28,13 @@ foreach($check1 as $chk1)
 }
 $c="";
 $style="";
-// if($chk1== 'R1-S1')
-// {
-//     $c='checked';
-//     $style='background-color:red';
-// }
+ if($chk1== 'R1-S1')
+ {
+     $c='checked';
+     $style='background-color:red';
+ }
 
-//truncate table tick;
+truncate table tick;
 ?>
 
 
@@ -46,7 +46,8 @@ $style="";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="../assets/css/bookin-board.css">
+    <link rel="stylesheet"  href="../assets/css/bookin-board.css">
+
 </head>
 <body>
 <form id="booking-seat" action="checkbox_test.php" method="POST" >  

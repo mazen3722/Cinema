@@ -470,7 +470,6 @@
 			seats[seatIds[0]].focus();
 
 		});
-
 		//public methods of seatCharts
 		fn.data('seatCharts', {
 			seats: seats,
