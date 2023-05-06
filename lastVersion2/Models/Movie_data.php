@@ -2,10 +2,10 @@
 
 class movie
 {
-    public $Movie_id;
-    public $Movie_Title;
-    public $Movie_Desc;
-    public $Movie_Type;
+    private $Movie_id;
+    private $Movie_Title;
+    private $Movie_Desc;
+    private $Movie_Type;
 //---------setters--------//
 
    public function set_Movieid($MovId)
