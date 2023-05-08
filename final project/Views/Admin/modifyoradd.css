@@ -1,0 +1,53 @@
+.addORmodify 
+{
+    font-size: 20px;
+    color: rgb(12, 11, 11);
+    border-radius: 5px;
+}
+.mainlabel{
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius:5px ;
+    padding: 5px;
+    
+}
+.addORmodify{
+    background: #949794;
+    border-radius: 30px;
+}
+.addORmodify form {
+    padding: 5%;
+
+}
+.addORmodify form input{
+    padding: 3px 40px;
+    margin-bottom: 5%;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-left: 0%;
+}
+.flex1 input{
+    border-radius: 50px;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    gap:10%;
+    /* margin-right: 48%; */
+    float: left;
+    margin-left: 14%;
+    border-radius: 5px;
+}
+.flex2 input{
+    background:rgb(23, 22, 22);
+    color: aliceblue;
+    border-radius: 150px;
+}
+.flex2 input:hover{
+    background:rgb(228, 227, 227);
+    color:black;
+    
+}
