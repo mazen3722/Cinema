@@ -1,0 +1,27 @@
+.searchbox{
+    color: white;
+    background:#df0e62 ;
+    padding: 15px;
+    width: 400px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.search-btn
+{
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 2px 50px;
+    /* align-items: center; */
+    margin-left: 28%;
+}
+.search-btn:hover{
+    background:#717071 ;
+    color: rgb(234, 226, 226);
+}
+.searchbox-main {
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-left: 3%;
+}
+
