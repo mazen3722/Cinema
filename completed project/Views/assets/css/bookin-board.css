@@ -1,0 +1,130 @@
+body{
+    margin-top: 10%;
+    margin-right: 25%;
+    /* background: #313132; */
+    background:#e7ebe7;
+    position: relative;
+
+}
+.flexcont{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    gap:10% ;
+}
+/* .seat-head{
+    /* text-align: center; */
+    /* position:relative; */
+    /* margin-left: 24%;
+    margin-bottom: 120%; */
+    /* margin-top: 0% ; */
+    /* padding-bottom: 20%; */
+    label{
+        margin-left: 48%;
+      padding-bottom:10%;
+        font-size: 60px;
+        color: #313132;
+    }
+table{
+    
+    width: 50%;
+    height: 100%;
+    padding: 1%;
+    /* background-color: black; */
+    margin-left:40%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    align-items: center;
+    display:inline;
+    font-weight: 900;
+
+}
+ #table-container.choose-seat,td{
+    width: auto;
+    padding: 10px 20px;
+    margin-bottom: 50%;
+    /* border-top: 2px solid; */
+    /* border-bottom: 2px solid; */
+    font-size: 12px;
+    border-radius: 30%;
+    position: relative;
+   
+    
+} 
+#table-container{
+    margin: auto;
+}
+.row1
+{
+    /* padding-left: 50%; */
+    background:#e7ebe7;
+    /* border:  50px solid; */
+}
+.row2
+{
+    /* width: auto; */
+    background:#e7ebe7;
+}
+.row3
+{
+    /* width: auto; */
+    background:#e7ebe7;
+}
+.row4
+{
+    /* width: auto; */
+    background:#e7ebe7;
+
+}
+.sub-butt{
+    background-color: #777784; /* Green */
+    border: none;
+    border-radius: 3%;
+    color: white;
+    padding: 10px 120px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-left:53% ;
+    align-items: center;
+    font-size: 16px;
+}
+.sub-butt:hover{
+    background-color: #ffffff; 
+    color:black;
+}
+/* .empty
+{
+    background: #0f0f10;
+    border: none;
+} */
+input[type="checkbox"] {
+    appearance: none;
+        /* -webkit-appearance: none; */
+    height:30px;
+    width: 30px;
+    background-color: #313132;;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* input[type="checkbox"]:after{
+    font-family: "Font Awesome 5 Free";
+    content:"\f6c0";
+    font-weight: 900;
+    font-size: 20px;
+    color: aliceblue;
+    display: none;
+} */
+input[type="checkbox"]:checked{
+    background-color: #19a825;
+}
+/* input[type="checkbox"]:checked:after{
+    display: block;
+} */
+.custom-select{
+position: relative;
+margin-left: 10%;
+margin-bottom: 100px;
+}
