@@ -1,0 +1,123 @@
+.addORmodify 
+{
+    
+    font-size: 20px;
+    color: rgb(12, 11, 11);
+}
+.mainlabel{
+    /* background: rgb(0, 0, 0); */
+    color: white;
+    border-radius:5px ;
+    padding: 5px;
+    font-size: 40px;
+    
+}
+
+.addORmodify{
+    background: #df0e62;
+    border-radius: 30px;
+}
+.addORmodify form {
+    padding: 2%;
+    color: aliceblue;
+
+}
+.flex1 input{
+    padding: 3px 10px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+} 
+.flex1{
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    margin-left: 0%;
+    border-radius: 5px;
+}
+.flex2{
+    /* display: flex;
+    justify-content: center; */
+    /* gap:10%; */
+    /* margin-right: 48%; */
+    position: relative;
+    /*  float: left; */
+    margin-left: 38%;
+    margin-bottom:1% ;
+    margin-top: 9%;
+}
+.flex2 input{
+    background:rgb(23, 22, 22);
+    color: aliceblue;
+    border-radius: 10px;
+    padding:1%  100px ;
+}
+.flex2 input:hover{
+    background:rgb(228, 227, 227);
+    color:black;
+}
+.flex4{
+    padding: 30px 300px;
+    margin-left:8% ;
+    border-radius: 10px;
+}
+.flexlabel{
+    font-size: 30px;
+    margin-left: 8%;
+
+}
+.custom-select{
+    /* margin-bottom: 20%;  */
+    /* background-color: DodgerBlue; */
+    /* border: 1px solid transparent; */
+    padding: 1px 1px;
+    margin-left: 12%;
+    /* border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent; */
+
+}
+
+select
+{
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0!important;
+    color: #0a0909;
+    background: #dedada;
+}
+select::-ms-expand{
+    display: none;
+}
+.custom-select{
+    position: relative;
+    display: flex;
+    width: 40em;
+    height: 2em;
+    line-height: 2em;
+    background: #faf9f9;
+    overflow: hidden;
+    border-radius: .25em;
+}
+select{
+    flex: 1;
+    padding: 0 3em;
+    font-size: 15px;
+    font-weight: 600;
+}
+.custom-select::after{
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0%;
+    padding: .1em  1em;
+    background: #c70050;
+    cursor: pointer;
+    pointer-events: none;
+    transform: .25s all ease;
+}
+.sl{
+    float: left;
+    position: absolute;
+    /* margin-top:10% ; */
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
